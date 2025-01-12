@@ -26,7 +26,7 @@ function makeBubble(){
   
 }
 
-var timer = 10;
+var timer = 60;
 
 function runTimer(){
  var timerInterval = setInterval(function(){
@@ -36,7 +36,7 @@ function runTimer(){
   }else{
     clearInterval(timerInterval);
     pbtm.innerHTML = `<div class="showScore">
-          <h4>Your Score : ${score}</h4>
+          <h3>Your Score : ${score}</h3>
           <h6>Reload the page to restart</h6>
         </div>`;
   }

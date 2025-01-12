@@ -87,6 +87,10 @@ html, body {
   background-color: rgb(3, 68, 3);
 }
 
+.bubble:active{
+  opacity: 0.7;
+}
+
 
 .showScore {
   font-size: 40px;
