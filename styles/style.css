@@ -66,6 +66,8 @@ html, body {
   height: calc(100% - 100px);
   padding: 20px;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .bubble{
@@ -74,7 +76,7 @@ html, body {
   justify-content: center;
   width: 60px;
   height: 60px;
-  background-color: rgb(13, 91, 13);
+  background-color: rgb(27, 143, 27);
   color: #fff;
   border-radius: 50%;
   font-weight: 500px;
@@ -83,4 +85,10 @@ html, body {
 .bubble:hover{
   cursor: pointer;
   background-color: rgb(3, 68, 3);
+}
+
+
+.showScore {
+  font-size: 40px;
+  color: rgb(71, 159, 71);
 }
